@@ -1,0 +1,40 @@
+h1 {
+
+    display:    block;
+    text-transform: uppercase;
+
+}
+
+    .h1-principal {
+        text-transform: lowercase;
+
+    }
+
+h2, h3, li  {
+
+    text-transform: capitalize;
+
+}
+
+    .li-principal {
+        text-transform: uppercase;
+
+    }
+
+.text-price {
+
+    padding-top: 5px;
+
+}
+
+p::first-letter {
+
+    text-transform: uppercase;
+
+}
+
+footer {
+    /* temporary style */
+    text-transform: capitalize;
+
+}

@@ -1,0 +1,43 @@
+
+.uppercase  {
+
+    text-transform: uppercase;
+}
+    
+.capitalize {
+     
+    text-transform: capitalize;
+
+}
+
+.text-price {
+
+    padding-top: 5px;
+
+}
+
+.fst-capitalize::first-letter {
+
+    text-transform: uppercase;
+
+}
+
+p::first-letter {
+
+    text-transform: uppercase;
+
+}
+
+span {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  
+}
+  
+  figure {
+    
+    display: inline-block;
+
+}
