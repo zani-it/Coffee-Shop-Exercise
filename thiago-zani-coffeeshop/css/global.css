@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.uppercase  {
+
+    text-transform: uppercase;
+}
+    
+.capitalize {
+     
+    text-transform: capitalize;
+
+}
+
+p::first-letter {
+
+    text-transform: uppercase;
+
+}
+
+footer {
+    /* temporary style */
+    text-transform: capitalize;
+
+}
