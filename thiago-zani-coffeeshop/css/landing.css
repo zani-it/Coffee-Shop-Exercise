@@ -1,12 +1,48 @@
-.text-price {
+.menu-nitro   {
 
-    padding-top: 5px;
+    color: #393939;
+    font-size: 3.75rem;
+    font-weight: 300;
+    text-decoration: none;
 
 }
 
-.fst-capitalize::first-letter {
+button {
 
-    text-transform: uppercase;
+    color:#fff;
+    background-color: #5BACC3;
+    border: none;
+    font-size: 1.313rem;
+    
+}
+
+.button-content-container {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+/* 
+paragraph text was recommended for the price 
+style for paragraph asked for smaller font 18px
+although it would not follow the mockup style
+I changed so the style matches the mockup */
+
+.text-price {
+
+    color: #5BACC3;
+    font-size: 2.063rem;
+    
+}
+
+.discount   {
+
+    background-color: #363636;
+    color:  #fff;
+    font-size: 2.813rem;
+    text-align: center;
+    margin: 0rem;
+    max-width: 90%;
 
 }
 
@@ -18,8 +54,14 @@ span {
   
 }
   
-  figure {
+figure {
     
     display: inline-block;
+
+}
+
+.social {
+
+    width: 3.125rem;
 
 }

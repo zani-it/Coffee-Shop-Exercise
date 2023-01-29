@@ -10,53 +10,59 @@
 </head>
 <body>
     <Header>
-        <figure>
-            <img src="cbean_logo.jpg" alt="coffee bean logo">
-        </figure>
-        <h1 class="up"> 
-            <a href="./">
-            nitro
+        <section class="pinkbkg">
+        <Div>
+            <a href="index.html">
+                <img src="./assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
+            </a>
+        </Div>
+        <h1> 
+            <a href="./" class="menu-nitro">
+                nitro
             <a>
         </h1>
-        <nav class="uppercase"> 
-            <ul>
+        <nav> 
+            <ul class="uppercase nitro-menu nobullet">
                 <li>
-                    <a href="./">
+                    <a href="index.html">
                         about
                     </a>
                 </li>
-                <li">
-                    <a href="./">
+                <li>
+                    <a href="./pages/menu.html">
                         menu
                     </a>
                 </li>
                 <li>
-                    <a href="./">
+                    <a href="./pages/menu.html">
                         shop now
                     </a>
                 </li>
-            </ul>    
+            </ul> 
         </nav>
+        </section>
+        <section class="pinkbkg">  
         <h1 class="capitalize">nitro coffee</h1>
-            <p class="fst-capitalize">
+            <p>
                 coffee is a brewed drink prepared from roasted coffee beans,
                 the seeds of berries from certain Coffea species.
             </p>
-            <span>
-                <button class="uppercase">
+            <div class="button-content-container">
+                <button class="uppercase" onclick="window.location.href='./pages/menu.html';">
                     shop now
                 </button>
                 <figure>
-                    <img src="cbag.jpg" alt="coffee bag">
+                    <img src="./assets/coffeebeans-hero.png" alt="coffee bag">
                 </figure>
-            </span>
+            </div>
+        </section>
     </Header>
     <section>
         <h2 class="capitalize">
             Our Products
         </h2>
             <div class="card1">
-            <img src="cbeans.jpg" alt="coffee beans">             
+            <img src="./assets/coffeebeans.png" alt="coffee beans">             
                 <h3 class="capitalize">
                     coffee beans
                 </h3>
@@ -65,7 +71,7 @@
                     </p>
             </div>
             <div class="card2">
-            <img src="cbeans.jpg" alt="coffee beans">      
+            <img src="./assets/coldbrew.png" alt="cold brew">      
                 <h3 class="capitalize">
                     cold brew
                 </h3>
@@ -74,7 +80,7 @@
                     </p>
             </div>
             <div class="card3">
-            <img src="cbeans.jpg" alt="coffee beans">      
+            <img src="./assets/inhousebrew.png" alt="in-house brew">      
                 <h3 class="capitalize">
                     in-house brew
                 </h3>
@@ -82,14 +88,19 @@
                         $2.99
                     </p>
             </div>
-                <button class="uppercase">
+            <div class="button-content-container">
+                <button class="uppercase" onclick="window.location.href='./pages/menu.html';">
                     view all
                 </button>
-                    <p> 
-                        get 20% off your first order with code: FirstNitro
-                    </p>
+            </div>
+                <p class="discount"> 
+                    get 20% off your first order with code: 
+                    <b style="font-weight:700">
+                        FirstNitro
+                    </b>
+                </p>
     </section>
-    <footer>
+    <footer class="pinkbkg">
             <div>
                 <h3 class="capitalize">
                     address
@@ -115,9 +126,9 @@
                     social
                 </h3>
                     <span>
-                        <img src="cbeans.jpg" alt="facebook">
-                        <img src="cbeans.jpg" alt="yelp">
-                        <img src="cbeans.jpg" alt="instagram">      
+                        <img class="social" src="./assets/Facebook-Icon.svg" alt="facebook">
+                        <img class="social" src="./assets/Yelp-Icon.svg" alt="yelp">
+                        <img class="social" src="./assets/Instagram-Icon.svg" alt="instagram">      
                     </span>             
             </div>
     </footer>

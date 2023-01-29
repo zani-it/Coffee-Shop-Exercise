@@ -1,28 +1,68 @@
-h1 {
+.coffee-logo {
 
-    display:    block;
-    text-transform: uppercase;
-
-}
-
-    .h1-principal {
-        text-transform: lowercase;
-
-    }
-
-h2, h3, li  {
-
-    text-transform: capitalize;
+    width: 3.125rem;
 
 }
 
-    .li-principal {
-        text-transform: uppercase;
+.menu-nitro   {
 
-    }
+    color: #393939;
+    font-size: 3.75rem;
+    font-weight: 300;
+    text-decoration: none;
 
+}
 
+.title-box  {
 
+    width: 18.75rem;
+    height: 12.5rem;
+    background-color: #393939;
+    color:  #fff;
+    text-align: center;
+    font-size: 3.75rem;
+    font-weight: 300;
+    
+}
 
+.title-background   {
 
+    background-image: url('../assets/coffee-circle.jpg');
+    width: 100%;
+    height: 43.75rem;
+    background-position: center;
+    background-size: cover;
 
+}
+
+.nav-link {
+    
+    text-decoration: none;
+    width: 100%;
+    background-color: #393939;
+    color:  #fff;
+    text-align: center;
+    font-size: 1.313rem;
+    font-weight: 400;
+
+}
+
+.menu-description {
+
+    width: 40%;
+    text-align: center;
+    font-style: italic;
+    
+
+}
+
+.menu-price {
+
+    color:  #5BACC3
+
+}
+
+#cold-drinks, #hot-drinks, #pastries {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 2s;
+  }
